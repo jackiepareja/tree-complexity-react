@@ -1,0 +1,33 @@
+body {
+	padding: 40px;
+}
+
+/* Atom Components */
+
+.atom-input {
+	width: 50%;
+	font-weight: 700;
+	height: 32px;
+	border-radius: 4px 0 0 4px;
+	font-size: 18px;
+	border: 1px solid #333;
+}
+
+.atom-button {
+	background-color: #fff;
+	border-radius: 0 4px 4px 0;
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: none;
+	height: 36px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.atom-button:hover {
+	background-color: #eee;
+	color: #333;
+}
+
+/* Molecule Components */

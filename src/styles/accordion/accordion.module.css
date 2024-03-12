@@ -1,0 +1,41 @@
+.molecule-accordion button {
+	background-color: transparent;
+	border: none;
+}
+
+.molecule-accordion-header {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.accordion-header {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.accordion-header img {
+	width: 25px;
+	height: 25px;
+	margin-right: 4px;
+}
+
+.accordion-content {
+	transition: height 0.3s ease;
+	margin: 10px 0;
+}
+
+.accordion-content p {
+	font-size: 20px;
+	margin: 0;
+}
+
+.accordion-content.expanded {
+	height: fit-content;
+	margin-left: 40px;
+}
+
+.accordion-content.collapsed {
+	height: 0;
+	overflow: hidden;
+}
