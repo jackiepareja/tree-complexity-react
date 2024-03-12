@@ -5,7 +5,7 @@ export const fetchReposFromPath = async (
 	pathChildren?: PathProps
 ) => {
 	const response = await fetch(
-		`https://api.github.com/repos/jackiepareja/tree-complexity/contents/${
+		`https://api.github.com/repos/jackiepareja/tree-complexity-react/contents/${
 			pathChildren ? pathChildren?.path : ""
 		}`
 	);
